@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanvasGame", "CanvasGame\CanvasGame.csproj", "{D25F75EB-201A-4912-AF82-48CED911EDCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanvasGameTest", "CanvasGameTest\CanvasGameTest.csproj", "{FF4FBDD2-9EE4-494F-83B2-1F23F498737C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D25F75EB-201A-4912-AF82-48CED911EDCC} = {D25F75EB-201A-4912-AF82-48CED911EDCC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D25F75EB-201A-4912-AF82-48CED911EDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25F75EB-201A-4912-AF82-48CED911EDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25F75EB-201A-4912-AF82-48CED911EDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25F75EB-201A-4912-AF82-48CED911EDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4FBDD2-9EE4-494F-83B2-1F23F498737C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4FBDD2-9EE4-494F-83B2-1F23F498737C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4FBDD2-9EE4-494F-83B2-1F23F498737C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4FBDD2-9EE4-494F-83B2-1F23F498737C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E03F18C1-998E-4C32-B8FE-DCEE57AD423C}
+	EndGlobalSection
+EndGlobal
